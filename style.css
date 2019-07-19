@@ -1,0 +1,99 @@
+body {
+  background-color: #dfb78e !important;
+}
+.card {
+   margin: 0 auto;
+   background-color: #dfb78e !important;
+}
+.container {
+ display: block;
+ text-align: center;
+}
+.btn {
+  background-color: #f44323 !important;
+  color: white !important;
+}
+#facebook, #youtube, #instagram, #medium {
+    font-size: 3em;
+    padding: 5px;
+   margin: 0 auto;
+   text-align: center;
+   
+   
+    
+  }
+  #facebook {
+    color: #1D282D;
+  }
+  #facebook:hover {
+    color: 	#E64413;
+    cursor: pointer;
+  }
+  #youtube {
+    color: 	#cc181e;
+  }
+  #youtube:hover {
+    color:	#666666;
+    cursor: pointer;
+  }
+  #instagram {
+    color:  #8a3ab9;
+  }
+  #instagram:hover {
+    color: #fbad50;
+    cursor: pointer;
+  }
+  #medium {
+    color: #3cb371;
+  }
+  #medium:hover {
+    color: #76c99b;
+    cursor: pointer;
+  }
+  #backArrow, #backArrowOne, #backArrowTwo{
+    font-size: 2em;
+    padding: 20px;
+    
+  }
+  #backArrow:hover, #backArrowOne:hover, #backArrowTwo:hover {
+    cursor: pointer;
+    color: grey;
+  }
+  h1, h2 {
+    
+    text-align: center;
+  
+  }
+  p {
+    padding-left: 20px;
+  }
+  h3 {
+    padding-left: 40px;
+  }
+  #name {
+    font-family: 'Londrina Shadow';
+    font-size: 8em;
+  }
+  #title {
+    font-family: 'Londrina Shadow';
+    font-size: 5em;
+  }
+  .jumbotron {
+color: #2ca1db;
+background-image: url("jumbo.jpg");
+background-size: cover;
+  }
+footer {
+  background-color: #112047;
+  color: #fff;
+}
+@media only screen and (max-width: 748px) {
+  #name {
+    font-family: 'Londrina Shadow';
+    font-size: 5em;
+  }
+  #title {
+    font-family: 'Londrina Shadow';
+    font-size: 2em;
+  }
+}
