@@ -1,6 +1,9 @@
 body {
   background-color: #dfb78e !important;
 }
+ul {
+  list-style-type: none;
+}
 .card {
    margin: 0 auto;
    background-color: #dfb78e !important;
@@ -38,6 +41,8 @@ body {
   }
   #instagram {
     color:  #8a3ab9;
+    text-align: center;
+    margin: 20px;
   }
   #instagram:hover {
     color: #fbad50;
@@ -70,6 +75,17 @@ body {
   h3 {
     padding-left: 40px;
   }
+ #venue {
+    font-size: 1.6em;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: 1px solid slateblue;
+   margin: 20px;
+   color: lemonchiffon;
+   opacity: .8;
+   font-display: bold;
+   background-color: slateblue;
+  
+ }
   #name {
     font-family: 'Londrina Shadow';
     font-size: 8em;
@@ -77,10 +93,11 @@ body {
   #title {
     font-family: 'Londrina Shadow';
     font-size: 5em;
+
   }
   .jumbotron {
 color: #2ca1db;
-background-image: url("jumbo.jpg");
+
 background-size: cover;
   }
 footer {
