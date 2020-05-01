@@ -6,8 +6,6 @@ const backArrowOne= document.getElementById("backArrowOne");
 const backArrowTwo= document.getElementById("backArrowTwo");
 const portfolioButton = document.getElementById("portfolioButton");
 const portfolio = document.getElementById("portfolio");
-const contactButton = document.getElementById("contactButton");
-const contact = document.getElementById("contact");
 
 function aboutMe () {
     intro.style.display = "none";
@@ -21,11 +19,7 @@ function portfolioMe () {
 }
 portfolioButton.addEventListener("click", portfolioMe);
 
-function contactMe () {
-    intro.style.display = "none";
-   contact.style.display = "block";
-}
-contactButton.addEventListener("click", contactMe);
+
 
 function returnMe () {
     intro.style.display = "block";
@@ -41,9 +35,3 @@ function returnMeOne () {
 }
 backArrowOne.addEventListener("click", returnMeOne);
 
-function returnMeTwo () {
-    intro.style.display = "block";
-   
-    contact.style.display = "none";
-}
-backArrowTwo.addEventListener("click", returnMeTwo);

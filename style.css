@@ -11,13 +11,13 @@ ul {
 .container {
  display: block;
  text-align: center;
- background-color: #dfb78e !important;
+
 }
 .btn {
   background-color: #f44323 !important;
   color: white !important;
 }
-#facebook, #youtube, #instagram, #medium {
+#facebook, #youtube, #instagram, #twitter{
     font-size: 3em;
     padding: 5px;
    margin: 0 auto;
@@ -26,13 +26,8 @@ ul {
    
     
   }
-  #facebook {
-    color: #1D282D;
-  }
-  #facebook:hover {
-    color: 	#E64413;
-    cursor: pointer;
-  }
+
+ 
   #youtube {
     color: 	#cc181e;
   }
@@ -43,17 +38,17 @@ ul {
   #instagram {
     color:  #8a3ab9;
     text-align: center;
-    margin: 20px;
+    
   }
   #instagram:hover {
-    color: #fbad50;
+    color: #c22aa3;
     cursor: pointer;
   }
-  #medium {
-    color: #3cb371;
+  #twitter {
+    color: #1DA1F2;
   }
-  #medium:hover {
-    color: #76c99b;
+  #twitter:hover {
+    color:  #14171A;
     cursor: pointer;
   }
   #backArrow, #backArrowOne, #backArrowTwo{
